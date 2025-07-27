@@ -1,0 +1,120 @@
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 75px 10px 120px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: open sans;
+}
+.button{
+    background-color: orangered;
+    padding: 8px 12px;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+.intro{
+    width: 585px;
+    height: 356px;
+}
+.hi{
+    font-weight: normal;
+    font-size: large;
+}
+.image {
+    width: 585px;
+    height:676px;
+}
+.header_2nd_part{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.header{
+    background-image: url('images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+/* shared styles */
+.section-size{
+    width: 827px;
+    margin: 50px auto;
+    
+}
+.section-title{
+    text-align: center;
+}
+main p{
+    font-weight: 150;
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color:FFF9F4;
+
+}
+
+/* about section */
+.about{
+    background-color: white;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.info ul{
+    padding: 0;
+    margin: 0;
+}
+.info ul li{
+    list-style-type: none;
+}
+/* section 3 */
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.section3 .box .icon-title{
+    font-weight: bold;
+}
+.section3 .box{
+    width: 267px;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: -2px 2px 7px -5px black;
+   
+}
+.section3 .box .icon-description{
+    font-weight: lighter;
+    color: gray;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
