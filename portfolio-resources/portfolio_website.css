@@ -118,3 +118,79 @@ main{
     row-gap: 20px;
 }
 
+/* Resume section */
+.resume-container{
+    
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.resume-container .resume-content{
+    width: 511px;
+    height: 175px;
+    margin-bottom: 70px;
+
+}
+.resume-container .resume-title{
+    font-weight: bold;
+    font-size:30px ;
+    color:rgb(71, 71, 71) ;
+    text-transform: capitalize;
+}
+.resume-container .content-title{
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(71, 71, 71) ;
+    text-transform: capitalize;
+}
+.resume-container .content-source{
+    font-weight: 600;
+    font-size: 20px;
+    color:gray;
+}
+.resume-container .content-description{
+    font-weight: 300;
+    font-size: 16px;
+    color: gray;
+    text-align: left;
+}
+.cv-button button{
+    display: block;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    width: 200px;
+    height: 64px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    margin: auto;
+}
+.cv-button button a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* footer Section */
+footer .last-part{
+    width:1314px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    background-color: cornsilk;
+}
+.last-part .last-part-2 input{
+    display: block;
+    margin: 20px 0px;
+    padding: 10px;
+}
+#drop{
+    background-color: orangered;
+    padding: 20px 30px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid orangered;
+    border-radius: 4px;
+}
